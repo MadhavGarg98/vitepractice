@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    width: 100vw;
+align-items: center;
+justify-content: center;
+gap: 20px;
+}
+
+
+.profile{
+    background-color: rgb(255, 121, 248);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding: 30px;
+    border-radius: 40px;
+    box-shadow: 7px 7px 7px rgb(250, 153, 235);
+}
+.profile p{
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+
+}
+.profile h1{
+    color: rgb(14, 4, 24);
+
+}
+
